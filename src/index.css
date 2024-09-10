@@ -1,0 +1,30 @@
+/* src/index.css */
+
+/* Сбрасываем отступы по умолчанию */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center; /* Центрирование по горизонтали */
+  align-items: center; /* Центрирование по вертикали */
+  font-family: Arial, sans-serif; /* Общий шрифт для всего приложения */
+  background-color: rgb(47, 45, 45); /* Фоновый цвет */
+  overflow: hidden; /* Убирает прокрутку, если не требуется */
+}
+
+#root {
+  display: flex;
+  flex-direction: column; /* Содержимое идет по вертикали */
+  align-items: center; /* Центровка по горизонтали */
+  justify-content: center; /* Центровка по вертикали */
+  padding: 20px;
+}

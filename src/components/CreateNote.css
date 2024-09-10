@@ -1,0 +1,76 @@
+/* src/components/CreateNote.css */
+
+.create-note-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .create-note-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .input-field,
+  .textarea-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .textarea-field {
+    resize: vertical; /* Ограничение на изменение размера */
+    min-height: 100px;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    background-color: #4caf50;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* src/index.css */
+
+/* Сбрасываем отступы по умолчанию */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body, #root {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center; /* Центрирование по вертикали */
+    font-family: Arial, sans-serif; /* Общий шрифт для всего приложения */
+    background-color: rgb(47, 45, 45); /* Фоновый цвет */
+    overflow: hidden; /* Убирает прокрутку, если не требуется */
+  }
+  
